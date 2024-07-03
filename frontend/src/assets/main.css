@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu'), local('Ubuntu-Regular'), url(C:\Users\v.bogachev\Documents\OpenCRM\src\assets\fonts\Ubuntu-Regular.ttf) format('ttf');
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  width: 85%;
+  margin: 0 auto;
+  /* padding: 2%; */
+  align-items: center;
+
+}
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+}
+button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+  border: none;
+  padding: 5px 10px;
+  margin: 1%;
+  min-height: 40px;
+  min-width: 60px;
+}
+button:hover {
+  background-position: right center;
+}
+a {
+  text-decoration: none;
+  color: #271e17;
+}
+a:hover{
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: #14296c;
+}
+a:active{
+  border-bottom: 1px solid;
+  color: #cc501d;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 5%;
+  margin: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:hover {
+  background-color: #f2f2f2;
+}
